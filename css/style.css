@@ -26,6 +26,7 @@ body {
 
 .signature-title {
     text-transform: uppercase;
+    width: 45%;
 }
 
 .signature-title h1 {
