@@ -1,0 +1,137 @@
+/******************************
+ * Tassu's "Report" theme
+ *
+ * Pls dont use w/o permissions ty
+ * u can contact me at <hello@tassu.me>
+ * k thx bye
+ */
+body {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background: url(https://hubot.github.com/assets/images/layout/project-paper.png);
+}
+
+#container {
+    background: rgba(229, 229, 229, 0.7);
+    -ms-transform: skewX(3deg); /* IE 9 */
+    -webkit-transform: skewX(3deg); /* Safari */
+    transform: skewX(3deg);
+}
+
+#container-inner {
+    -ms-transform: skewX(-3deg); /* IE 9 */
+    -webkit-transform: skewX(-3deg); /* Safari */
+    transform: skewX(-3deg);
+    padding: 20px;
+}
+
+.signature-title {
+    text-transform: uppercase;
+}
+
+.signature-title h1 {
+    font-family: 'Caveat', cursive;
+    color: rgb(66, 66, 66);
+    font-size: 2.7rem;
+    padding-bottom: 3px;
+    margin:0;
+    text-transform: uppercase;
+}
+
+.signature-title a {
+    color: rgb(66, 66, 66);
+}
+
+.signature-title a:hover {
+    text-decoration: none;
+}
+
+.signature-title a:after {
+    content: '';
+    display: block;
+    bottom: 10px;
+    background: #638cce;
+    width: 0;
+    height:3px;
+    transition: 0.4s width;
+}
+
+.signature-title a:hover:after {
+    width: 10%;
+}
+
+.signature-title span:not(.field-id):before {
+    content: '';
+    display: block;
+    bottom: 10px;
+    border-top: #638cce 1px solid;
+    width: 250px;
+}
+
+.signature-title span:not(.field-id) {
+    color: #638cce;
+    font-size: 1.3rem;
+    font-weight:100;
+}
+
+.signature-title span.field-id {
+    font-weight:bold;
+}
+
+hr {
+    color: #638cce;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #638cce;
+    margin: 1em 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight:200;
+    text-transform: uppercase;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li:before {
+    content: '- ';
+}
+
+ol li {
+    list-style-type: decimal;
+}
+
+.styled-button, .styled-button:hover {
+    border: gray 2px solid;
+    display: block;
+    width: 80%;
+    padding: 10px;
+    color: gray;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.styled-button small {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.styled-button i.fa {
+    transition: 0.7s transform;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+.styled-button:hover i.fa {
+    color: #638cce;
+    -webkit-transform: scale(1.9);
+    -moz-transform: scale(1.9);
+    -ms-transform: scale(1.9);
+    -o-transform: scale(1.9);
+    transform: scale(1.9);
+}
