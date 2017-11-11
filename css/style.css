@@ -12,16 +12,16 @@ body {
 
 #container {
     background: rgba(229, 229, 229, 0.7);
-    -ms-transform: skewX(3deg); /* IE 9 */
-    -webkit-transform: skewX(3deg); /* Safari */
-    transform: skewX(3deg);
+    -ms-transform: skewY(3deg); /* IE 9 */
+    -webkit-transform: skewY(3deg); /* Safari */
+    transform: skewY(3deg);
 }
 
 #container-inner {
-    -ms-transform: skewX(-3deg); /* IE 9 */
-    -webkit-transform: skewX(-3deg); /* Safari */
-    transform: skewX(-3deg);
-    padding: 20px;
+    -ms-transform: skewY(-3deg); /* IE 9 */
+    -webkit-transform: skewY(-3deg); /* Safari */
+    transform: skewY(-3deg);
+    padding: 40px;
 }
 
 .signature-title {
@@ -30,7 +30,7 @@ body {
 }
 
 .signature-title h1 {
-    font-family: 'Caveat', cursive;
+    font-family: 'Rock Salt', cursive;
     color: rgb(66, 66, 66);
     font-size: 2.7rem;
     padding-bottom: 3px;
